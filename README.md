@@ -1,4 +1,5 @@
 # PSET 1
+
 ## Part 1: Written Response
 In this section, you will read and interpret Java code and answer questions 
 about common mistakes in Java syntax. Complete the questions in Part1.txt and 
@@ -11,6 +12,7 @@ Goals:
  * Comprehend Java code and understand how to trace through code segments 
  in Java.
  * Understand Javadoc and how it should be formatted for this course.
+
 ## Part 2: Writing Code
 In this section, you will write your own methods and basic Java program to 
 perform a simple task. This requires effective command of Java constructs, 
@@ -24,6 +26,7 @@ Goals:
  * Gain experience with BlueJ, output, and interacting with Java programs.
  * Write effective Javadoc to ensure outside users can easily comprehend 
  the purpose of code.
+ 
 ## Part 3: Introduction to Adventure Games
 Throughout the PSETs and assignments in this course, you will slowly develop 
 your own adventure game. It will start as an old-fashioned text-based adventure 
