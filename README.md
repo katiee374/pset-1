@@ -1,6 +1,6 @@
 # PSET 1
 
-## Part 1: Written Response
+## Part 1: Interpreting Code
 In this section, you will read and interpret Java code and answer questions 
 about common mistakes in Java syntax. Complete the questions in Part1.txt and 
 Mistakes.java. By the end of this task, Mistakes.java should compile and run 
