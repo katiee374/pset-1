@@ -86,5 +86,7 @@ public class RPS
                 }
             }
         }
+        //close the scanner
+        scan.close();
     }
 }
