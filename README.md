@@ -18,7 +18,7 @@ In this section, you will write your own methods and basic Java program to
 perform a simple task. This requires effective command of Java constructs, 
 including some APIs we introduced in class. You will continue to build your 
 skills with arrays, loops, conditionals, and more Java constructs throughout 
-the semester. Complete the files RPS.java and Hangman.java.
+the semester. Complete the file RPS.java.
 
 Goals:
  * Understand how to compile and run a simple Java program to interact with 
