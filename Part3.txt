@@ -1,0 +1,15 @@
+Instructions: Visit the links below and play a few of the games there to get 
+an idea of what playing a text-based adventure game is like. Retro games like 
+these were popular in the 80's and 90's. A famous example is Zork, which you 
+can play at the third link.
+1. https://writtenrealms.com/ 
+2. https://textadventures.co.uk/
+3. https://www.pcjs.org/software/pcx86/game/infocom/zork1/
+
+Read the code samples below, and write a few sentences about the purpose of 
+each sample.
+*Code Samples Here*
+
+Reflect below on your experience playing these games. Feel free to mention any 
+ideas that were sparked for the theme of your own project or aspects of the 
+games that you enjoyed and want to explore further.
