@@ -40,3 +40,11 @@ which you may include on your resume or GitHub profile in the future. For
 this PSET, we'd like you to start brainstorming by playing the text-based 
 games we've provided, interpreting the code segments, and reflecting on 
 what aspects you might include in your game.
+
+## Part 4: First Adventure Game File
+To begin your adventure game project, create a new BlueJ project (Open BlueJ >
+Project > New Project) in a directory of your choice. Then, copy the provided 
+file and follow the instructions.
+
+For more information on the BufferedReader class, see the [BufferedReader API]
+(https://docs.oracle.com/javase%2F8%2Fdocs%2Fapi%2F%2F/java/io/BufferedReader.html).
