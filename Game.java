@@ -5,19 +5,18 @@ import java.util.Arrays;
 
 /**
  * Welcome to the beginning of your adventure game project! Before you begin 
- * in this file, read the instructions in README.md. Copy this file into your 
- * project folder, which you will use throughout the semester.
+ * in this file, read the instructions in README.md. Make a copy of this file 
+ * in your project folder, which you will use throughout the semester.
  * 
  * Instructions:
- * Follow the inline comment instructions. In this file, you will aim to 
- * accept user input and split that input into a format that the computer can 
- * understand. This will occur continuously until the user enters "q".
+ * Follow the inline instructions. In this file, you will aim to accept user 
+ * input and split that input into a format that the computer can understand. 
+ * This will occur continuously until the user enters "q".
  *
  * @author CS200 Instructors
  * @version 6.24.2024
  */
-public class FirstAdventureGameFile
-{
+public class Game {
     public static void main(String[] args) throws IOException {
         //create new Scanner, which will take input from the keyboard
         Scanner scan = new Scanner(System.in);
@@ -31,7 +30,8 @@ public class FirstAdventureGameFile
              * 2. Set input to scan.nextLine().
              * 3. Check if input is "q". If so, print a thank you message
              *    and break the loop.
-             * 4. Create a variable words and set it to wordList(input).
+             * 4. Create an ArrayList variable words and set it to 
+             *    wordList(input).
              * 5. Run parseCommand(words).
              */
     }
@@ -58,7 +58,7 @@ public class FirstAdventureGameFile
         ArrayList<String> objects = new ArrayList<String>
             (Arrays.asList("sword", "ring", "drop"));
         /*
-         * Write an if-else statement that follows the pseudocode:
+         * Write an if-else statement that follows this pseudocode:
          * if wordList has more than two elements, print a message saying only
          * two commands allowed
          * else set verb to the first element of wordList and object to the 
