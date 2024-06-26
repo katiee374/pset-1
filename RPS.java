@@ -6,10 +6,10 @@ import java.util.Random;
  * choosing randomly from the three options. Your job is to fill in the tasks
  * that have been commented out, so that the program runs as intended.
  * 
- * Follow the instructions and then delete the comments. Test your code by 
- * playing the game.
+ * Follow the instructions and then delete the comments. Tasks are preceded by 
+ * "TODO:". Test your code by playing the game.
  * 
- * Finally, add a description of the class, and update the author and version
+ * Finally, add a description of the class and update the author and version
  * tags.
  * 
  * Write a description of class RPS here.
@@ -27,7 +27,7 @@ public class RPS
         Random rand = new Random();
         //this array contains the options for choices in the game
         String[] options = {"Rock", "Paper", "Scissors"};
-        /**
+        /*
          * TODO: initialize a boolean variable so that we will know if the 
          * user wants to continue the game. Set it to true.
          */
@@ -36,7 +36,7 @@ public class RPS
         
         //intializing loop, so that the game continues until the user enters 0
         while (/*put the name of your boolean variable here*/) {
-            /**
+            /*
              * TODO: Print user options (Rock, paper, and scissors, in that 
              * order) to the screen in a numbered list.
              * Hint: Use "\n" to mean new line rather than separate println
@@ -44,7 +44,7 @@ public class RPS
              */
             //code below:
             
-            /**
+            /*
              * TODO: Prompt the user to enter the number of their choice, or
              * 0 to quit.
              */
@@ -54,14 +54,14 @@ public class RPS
             int computerChoice = rand.nextInt(3)+1;
             //take in user's choice
             int userChoice = scan.nextInt();
-            /**
+            /*
              * TODO: Write an if statement that checks if the user has entered
              * zero. If so, print a thank you message and set the boolean
              * variable to false.
              */
             //code below:
             
-            /**
+            /*
              * TODO: Fill in the conditional statements below. They are all
              * condiitional statements between userChoice, computerChoice,
              * and integers. There are three ways for the user to lose, and
