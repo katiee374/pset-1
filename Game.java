@@ -69,7 +69,7 @@ public class Game {
          * Write an if-else statement that follows this pseudocode:
          * if wordList has more than two elements, print a message saying only
          * two commands allowed
-         * else set verb to the first element of wordList and object to the 
+         * else set verb to the first element of wordList and noun to the 
          * second & check that the verb and object are contained in the lists
          * of commands and objects
          */
