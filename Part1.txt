@@ -1,5 +1,6 @@
 Instructions: Answer the questions below. Each question will provide you 
-with a method, and you should attempt to figure out what each method does.
+with a method to trace, by hand. Show how the value of the variable to be 
+returned changes line-by-line.
 
 What does mystery(7) return?
 public static int mystery(int a) {

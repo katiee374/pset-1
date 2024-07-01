@@ -3,11 +3,8 @@ import java.util.Random;
 /**
  * Instructions:
  * This program takes user input and plays rock paper scissors with the user,
- * choosing randomly from the three options. Your job is to fill in the tasks
- * that have been commented out, so that the program runs as intended.
- * 
- * Follow the instructions and then delete the comments. Tasks are preceded by 
- * "TODO:". Test your code by playing the game.
+ * choosing randomly from the three options. Follow the instructions. Tasks 
+ * are preceded by "TODO:". Test your code by playing the game.
  * 
  * Finally, add a description of the class and update the author and version
  * tags.
@@ -31,24 +28,21 @@ public class RPS
          * TODO: initialize a boolean variable so that we will know if the 
          * user wants to continue the game. Set it to true.
          */
-        //code below:
         
         
         //intializing loop, so that the game continues until the user enters 0
-        while (/*put the name of your boolean variable here*/) {
+        while (/*TODO: Put the name of your boolean variable here*/) {
             /*
              * TODO: Print user options (Rock, paper, and scissors, in that 
              * order) to the screen in a numbered list.
-             * Hint: Use "\n" to mean new line rather than separate println
+             * Hint: Use "\n" to start a new line rather than separate println
              * statements.
              */
-            //code below:
             
             /*
              * TODO: Prompt the user to enter the number of their choice, or
              * 0 to quit.
              */
-            //code below:
             
             //initializing computer's choice
             int computerChoice = rand.nextInt(3)+1;
@@ -59,7 +53,6 @@ public class RPS
              * zero. If so, print a thank you message and set the boolean
              * variable to false.
              */
-            //code below:
             
             /*
              * TODO: Fill in the conditional statements below. They are all

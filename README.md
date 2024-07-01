@@ -29,19 +29,18 @@ Goals:
  
 ## Part 3: Introduction to Adventure Games
 Throughout the PSETs and assignments in this course, you will slowly develop 
-your own adventure game. It will start as an old-fashioned text-based adventure 
-game, but later in the course you can add a GUI component for a visually 
-appealing game experience. You are welcome to choose whatever theme you'd like, 
-and you can add additional functionality unique to your theme as the course 
-goes along. This project will be broken down for you into manageable parts, 
-and we're excited to see your creativity and play your games at the end of 
-the semester. This is meant to provide you with a real project experience, 
-which you may include on your resume or GitHub profile in the future. For 
-this PSET, we'd like you to start brainstorming by playing the text-based 
-games we've provided, interpreting the code segments, and reflecting on 
-what aspects you might include in your game.
+your own text-based adventure game. You are welcome to choose whatever theme 
+you'd like, and you can add additional functionality unique to your theme as 
+the course goes along. This project will be broken down for you into 
+manageable parts, and we're excited to see your creativity and play your games 
+at the end of the semester. This is meant to provide you with hands-on project experience, which you may include on your resume or GitHub profile in the future. 
+For this PSET, we'd like you to start brainstorming a theme by playing the 
+text-based games we've provided and reflecting on what aspects you might include 
+in your game. Additionally, you will get a first look at what adventure game 
+source code might look like.
 
 ## Part 4: First Adventure Game File
 To begin your adventure game project, create a new BlueJ project (Open BlueJ >
 Project > New Project) in a directory of your choice. Then, copy the provided 
-file Game.java and follow the instructions.
+file Game.java and follow the instructions. When you're done working in your 
+project folder, copy and paste the code you've written back into this repository.

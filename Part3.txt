@@ -6,10 +6,66 @@ can play at the third link.
 2. https://textadventures.co.uk/
 3. https://www.pcjs.org/software/pcx86/game/infocom/zork1/
 
-Read the code samples below, and write a few sentences about the purpose of 
-each sample.
-*Code Samples Here*
-
 Reflect below on your experience playing these games. Feel free to mention any 
 ideas that were sparked for the theme of your own project or aspects of the 
 games that you enjoyed and want to explore further.
+
+ANSWER HERE:
+
+Read the code samples and respond to the questions below.
+/*
+ * Sample Java file by Huw Collingbourne
+ *
+ * This code (and other sample code) accompanies the book
+ *    "The Little Book of Adventure Game Programming In Java"
+ * Source code can be downloaded from:
+ *     http://www.bitwisebooks.com
+ */
+public Boolean moveTo(Dir dir) {
+        Room r; 
+        Room exit;
+        Boolean moved = false;
+
+        r = getLocation();
+        switch (dir) {
+            case NORTH:
+                exit = r.getN();
+                break;
+            case SOUTH:
+                exit = r.getS();
+                break;
+            case EAST:
+                exit = r.getE();
+                break;
+            case WEST:
+                exit = r.getW();
+                break;
+            case UP:
+                exit = r.getUp();
+                break;
+            case DOWN:
+                exit = r.getDown();
+                break;
+            default:
+                exit = null; // noexit - stay in same room
+                break;
+        }
+        if (exit != null) {
+            setLocation(exit);
+            moved = true;
+        }
+        return moved;
+    }
+    Note: This method uses a switch statement, which is like a set of if-else
+    statements. It is the same as if (dir==NORTH) ... else if (dir==SOUTH)...
+    Write psuedocode for what this method is doing.
+
+    ANSWER HERE:
+
+    public Thing(String aName, String aDescription) {
+        this.name = aName;
+        this.description = aDescription;
+    }
+    What type of method is this? What is its purpose?
+
+    ANSWER HERE:

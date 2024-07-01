@@ -6,7 +6,8 @@ import java.util.Arrays;
 /**
  * Welcome to the beginning of your adventure game project! Before you begin 
  * in this file, read the instructions in README.md. Make a copy of this file 
- * in your project folder, which you will use throughout the semester.
+ * in your project folder on your machine, which you will use throughout the 
+ * semester.
  * 
  * Instructions:
  * Follow the inline instructions, where tasks are marked by "TODO:". In this 
@@ -15,7 +16,7 @@ import java.util.Arrays;
  * enters "q".
  * 
  * Finally, write  a description of the class and update the author and version
- * tags. You may delete these instructions.
+ * tags.
  * 
  * Write a description of class Game here.
  *
@@ -26,10 +27,14 @@ public class Game {
     public static void main(String[] args) throws IOException {
         //create new Scanner, which will take input from the keyboard
         Scanner scan = new Scanner(System.in);
-        //TODO: initialize String variable for input
-        
-        //TODO: write a while loop with the condition that input is not q
-        
+        /*
+         * TODO: Initialize String variable for input
+         */
+
+        /*
+         * TODO: Write a while loop with the condition that input is not q.
+         */
+
             /*
              * TODO:
              * Inside the loop, do the following:
@@ -46,12 +51,11 @@ public class Game {
     public static ArrayList<String> wordList(String input) {
         //these are the things that can separate words:
         String delims = "[\t,.:;?!\"']";
-        //this splits the input String into an array of words that used to 
-        //be separated by the delimiter
+        //this splits the input String into an array of words
         String[] strArray = input.split(delims);
+        ArrayList<String> words = new ArrayList<String>();
         /*
-         * TODO: Initialize an ArrayList of type String and add every element 
-         * of strArray to that list. Return the list.
+         * TODO: Add every element of strArray to words. Return words.
          */
         
     }

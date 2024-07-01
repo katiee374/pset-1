@@ -1,11 +1,11 @@
 
 /**
  * Instructions:
- * Catch the mistakes in the file below. Correct them, and leave a comment 
- * "//*" below the line you corrected. Once all mistakes have been caught,
- * the file should compile. Additionally, there may be logic or Javadoc 
- * mistakes you should look out for. Feel free to edit statements to make
- * the code more elegant, as long as you do not alter the code's function.
+ * Catch the mistakes in the file below. Correct the mistakes. Once all 
+ * mistakes have been caught, the file should compile. Additionally, there may 
+ * be logic or Javadoc mistakes you should look out for. Feel free to edit
+ * statements to make the code more elegant, as long as you do not alter 
+ * the code's function.
  * 
  * Finally, update the author and version tags with your name and the date.
  *
