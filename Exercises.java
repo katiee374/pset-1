@@ -16,13 +16,13 @@ public class Exercises
      * degrees Celsius. Try the forumula 5/9(value in Fahrenheit - 32).
      */
     //fahrenheitToCelsius() here:
-    
+
     /*
      * Check if a number is even or odd. Take in a numerical value and output
      * a boolean: true for even, false for odd.
      */
     //checkIfEvenOdd() here:
-    
+
     /*
      * Check if a word is a palindrome. Take in a String value and output a 
      * boolean value: true if it is a palindrome, false if not.
@@ -30,7 +30,7 @@ public class Exercises
      * order.
      */
     //checkIfPalindrome() here:
-    
+
     /*
      * Check whether or not a number represents a leap year. A year is a leap
      * year if it is divisible by 4. However, if it is also divisible by 100, 
@@ -38,12 +38,12 @@ public class Exercises
      * is a leap year.
      */
     //checkLeapYear() here:
-    
+
     /*
      * Find the least common multiple of two numbers. Accept two numbers as 
      * numerical input and return a number, the least common multiple of the 
      * two numbers.
      */
     //findLCM() here:
-    
+
 }
