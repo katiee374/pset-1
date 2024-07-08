@@ -1,4 +1,4 @@
-# PSET 1
+# PSET 1: Intro & Java Constructs
 
 ## Part 1: Interpreting Code
 In this section, you will read and interpret Java code and answer questions 
