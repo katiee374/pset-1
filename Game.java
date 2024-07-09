@@ -31,9 +31,7 @@ public class Game {
          * TODO: Initialize String variable for input
          */
 
-        /*
-         * TODO: Write a while loop with the condition that input is not q.
-         */
+        while (!input.equals("q")) {
 
             /*
              * TODO:
@@ -41,41 +39,47 @@ public class Game {
              * 1. Print ">".
              * 2. Set input to scan.nextLine().
              * 3. Check if input is "q". If so, print a thank you message
-             *    and break the loop.
-             * 4. Create an ArrayList variable words and set it to 
+             *    and break the loop using the command "break". We do this 
+             *    here so that we don't attempt to parse the command "q".
+             * 4. Create a String array variable words and set it to 
              *    wordList(input).
              * 5. Run parseCommand(words).
              */
+        }
+        scan.close();
     }
     
-    public static ArrayList<String> wordList(String input) {
+    /**
+     * A method that splits the input String into words.
+     * 
+     * @param input - the String to be split
+     * @return words - array of Strings that are the words in the input 
+     *         Strings
+     */
+    public static String[] wordList(String input) {
         //these are the things that can separate words:
         String delims = "[\t,.:;?!\"']";
         //this splits the input String into an array of words
         String[] strArray = input.split(delims);
-        ArrayList<String> words = new ArrayList<String>();
-        /*
-         * TODO: Add every element of strArray to words. Return words.
-         */
-        
+        return strArray;
     }
-    
-    public static void parseCommand(ArrayList<String> wordList) {
-        //declared some variables for you
+    /*
+     * For now, this method serves no purpose. Eventually, this method will 
+     * use the command to perform actions.
+     */
+    /**
+     * A method to perform an action based on user input.
+     * 
+     * @param wordList - a String array containing valid words from the 
+     *        command.
+     */
+    public static void parseCommand(String[] wordList) {
+        //declared some variables
         String verb;
         String noun;
-        ArrayList<String> commands = new ArrayList<String>
-            (Arrays.asList("take", "drop"));
-        ArrayList<String> objects = new ArrayList<String>
-            (Arrays.asList("sword", "ring", "drop"));
-        /*
-         * TODO:
-         * Write an if-else statement that follows this pseudocode:
-         * if wordList has more than two elements, print a message saying only
-         * two commands allowed
-         * else set verb to the first element of wordList and noun to the 
-         * second & check that the verb and object are contained in the lists
-         * of commands and objects
-         */
+        String[] commands = {"take", "drop"};
+        String[] objects = {"sword", "ring", "key"};
+        verb = wordList[0];
+        noun = wordList[1];
     }
 }
