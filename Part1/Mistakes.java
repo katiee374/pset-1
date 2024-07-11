@@ -1,4 +1,4 @@
-
+package Part1;
 /**
  * Instructions:
  * Catch the mistakes in the file below. Correct the mistakes. Once all 
