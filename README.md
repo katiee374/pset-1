@@ -41,12 +41,18 @@ source code might look like.
 
 ## Part 4: Charting Your Adventure Game
 In this task, we'd like you to draw a map of your adventure game. According to 
-whatever theme you've chosen, chart a map (on paper!) that contains 4-6 locations
-(rooms, landmarks, etc.), and paths between them. Include a compass rose (N-S-E-W)
-to give your map some direction. It doesn't need to be artistic, but you 
-will repeatedly refer back to this map throughout the semester. You're welcome 
-to change it later in the semester as well. Add lists of objects (treasure chests, 
-keys, snakes, etc.) that will be in each place.
+whatever theme you've chosen, chart a map (on paper!) of your game's world. 
+Include the following elements:
+ * At least 4 rooms, with one room that is initially locked.
+ * At least one treasure chest per room, with the key to the locked room inside one
+   of them, as well as at least two treasures (some food, some other treasures) 
+   per chest.
+ * At least 3 animals, in various rooms, with various values for the damage 
+   they can do.
+ * Designate one room as the starting location, and number your rooms starting from 
+   zero.
+Feel free to be as artistic (or not) as you'd like, and you can include any extra 
+elements that you'd like.
 When you're finished, take a picture of your map and upload a .png or .jpeg file to 
 this repository.
 

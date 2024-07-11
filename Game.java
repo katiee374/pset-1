@@ -28,7 +28,7 @@ public class Game {
         //create new Scanner, which will take input from the keyboard
         Scanner scan = new Scanner(System.in);
         /*
-         * TODO: Initialize String variable for input
+         * TODO: Initialize String variable input
          */
 
         while (!input.equals("q")) {

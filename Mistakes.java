@@ -43,6 +43,7 @@ public class Mistakes
         
         for (i=0; i<4; i++) {
             System.out.println(i);
+            System.print(sumOfNums(i, i+1, "absolute value"));
         }
     }
 }
