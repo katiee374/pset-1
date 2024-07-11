@@ -1,4 +1,4 @@
-
+package Part1;
 /**
  * Instructions: Complete the exercises below. Add Javadoc to each method to 
  * explain what it does. Use the method names provided.
