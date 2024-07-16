@@ -58,14 +58,14 @@ public Boolean moveTo(Dir dir) {
     }
     Note: This method uses a switch statement, which is like a set of if-else
     statements. It is the same as if (dir==NORTH) ... else if (dir==SOUTH)...
-    Write psuedocode for what this method is doing.
 
+    Write psuedocode for what this method is doing.
     ANSWER HERE:
 
     public Thing(String aName, String aDescription) {
         this.name = aName;
         this.description = aDescription;
     }
-    What type of method is this? What is its purpose?
 
+    What type of method is this? What is its purpose?
     ANSWER HERE:
