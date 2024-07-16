@@ -14,18 +14,18 @@ Goals:
  * Understand Javadoc and how it should be formatted for this course.
 
 ## Part 2: Writing Code
-In this section, you will write your own methods and basic Java program to 
-perform a simple task. This requires effective command of Java constructs, 
+In this section, you will write your own methods and first Java program to 
+model a well-known game. This requires effective command of Java constructs, 
 including some APIs we introduced in class. You will continue to build your 
 skills with arrays, loops, conditionals, and more Java constructs throughout 
 the semester. Complete the file RPS.java.
 
 Goals:
  * Understand how to compile and run a simple Java program to interact with 
- user input.
+   user input.
  * Gain experience with BlueJ, output, and interacting with Java programs.
  * Write effective Javadoc to ensure outside users can easily comprehend 
- the purpose of code.
+   the purpose of code.
  
 ## Part 3: Introduction to Adventure Games
 Throughout the PSETs and assignments in this course, you will slowly develop 
@@ -33,7 +33,8 @@ your own text-based adventure game. You are welcome to choose whatever theme
 you'd like, and you can add additional functionality unique to your theme as 
 the course goes along. This project will be broken down for you into 
 manageable parts, and we're excited to see your creativity and play your games 
-at the end of the semester. This is meant to provide you with hands-on project experience, which you may include on your resume or GitHub profile in the future. 
+at the end of the semester. This is meant to provide you with hands-on project 
+experience, which you may include on your resume or GitHub profile in the future. 
 For this PSET, we'd like you to start brainstorming a theme by playing the 
 text-based games we've provided and reflecting on what aspects you might include 
 in your game. Additionally, you will get a first look at what adventure game 
@@ -47,7 +48,7 @@ Include the following elements:
  * At least one treasure chest per room, with the key to the locked room inside one
    of them, as well as at least two treasures (some food, some other treasures) 
    per chest.
- * At least 3 animals, in various rooms, with various values for the damage 
+ * At least 3 animals, in multiple rooms, with differing values for the damage 
    they can do.
  * Designate one room as the starting location, and number your rooms starting from 
    zero.
