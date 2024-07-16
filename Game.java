@@ -63,12 +63,10 @@ public class Game {
         String[] strArray = input.split(delims);
         return strArray;
     }
-    /*
-     * For now, this method serves no purpose. Eventually, this method will 
-     * use the command to perform actions.
-     */
+    //right now, this method doesn't perform an action, but it will later on.
     /**
-     * A method to perform an action based on user input.
+     * A method to perform an action based on user input. Assumes valid 
+     * input by user.
      * 
      * @param wordList - a String array containing valid words from the 
      *        command.
